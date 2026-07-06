@@ -16,7 +16,7 @@ from sklearn.preprocessing import MinMaxScaler
 from matplotlib import pyplot as plt
 # %matplotlib inline
 
-df = pd.read_csv("/content/sample_data/income.csv")
+df = pd.read_csv("income(1).csv")
 df.head()
 
 plt.scatter(df.Age,df['Income($)'])
